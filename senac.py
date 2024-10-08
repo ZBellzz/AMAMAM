@@ -274,6 +274,51 @@
 
 
 
+# jogo jokenpo
+
+
+# import random
+
+# joga = input("Digite 'pedra, papel ou tesoura ' ").lower()
+
+# jokenpo = ["pedra", "papel", "tesoura"]
+
+
+# sort = random.choice(jokenpo)
+
+# if (joga =="pedra" and sort == "tesoura") or (joga =="tesoura" and sort == "papel") or (joga =="papel" and sort == "pedra"):
+#     print("Parabens, voce escolheu {} e o pc escolheu {}".format(joga, sort))
+
+# elif (joga == sort):
+#     print("empate")
+
+# else:
+#     print("Voce perdeu, o pc escolheu {} e voce escolheu {}".format(sort, joga))
+
+
+# # contagem regressiva
+
+
+# # contador
+
+
+# import time
+
+
+# contador2 = int(input("Digite o segundo valor "))
+
+# # c é uma variavel| range de contagem, pode por variaveis| um terceiro numero seria intervalo entre a contagem
+
+# for c in range(0, contador2 + 1):
+    
+#     print(c)
+#     #time.sleep para tempo de espera apos executar o de cima
+#     time.sleep(2)
+# print("BOOOOOOOOM")
+
+
+
+
 
 
 
