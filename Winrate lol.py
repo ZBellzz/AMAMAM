@@ -1,47 +1,55 @@
-def lol():
+# def lol():
         
         
-        vitoria = int(input("Digite o numeros de partidas ganhas "))
-        derrotas = int(input("Digite o numero de derrotas "))
+#         vitoria = int(input("Digite o numeros de partidas ganhas "))
+#         derrotas = int(input("Digite o numero de derrotas "))
 
-        game = vitoria + derrotas
+#         game = vitoria + derrotas
 
-        r = (vitoria / game) * 100 
+#         r = (vitoria / game) * 100 
 
-        resu = ("O resultado do seu WINRATE é de : {}%".format(r))
-        resu2 = len(resu)
+#         resu = ("O resultado do seu WINRATE é de : {}%".format(r))
+#         resu2 = len(resu)
 
-        def lin():
-            print("-" * resu2)
+#         def lin():
+#             print("-" * resu2)
 
-        lin()
-        print(resu)
-        lin()
-
-
-def linha ():
-    print("-" * title2)
+#         lin()
+#         print(resu)
+#         lin()
 
 
-while True:
+# def linha ():
+#     print("-" * title2)
 
-    title = (" WINRATE LEAGUE OF LEGENDS ")
-    title2 = len(title)
 
-    linha()
-    print(title)
-    linha()
+# while True:
 
-    decisao = input("Deseja continuar? para continuar digite 'si' para parar digite 'no'  ")
+#     title = (" WINRATE LEAGUE OF LEGENDS ")
+#     title2 = len(title)
 
-    if decisao == "si":
-        lol()
+#     linha()
+#     print(title)
+#     linha()
 
-    elif decisao == "no":
+#     decisao = input("Deseja continuar? para continuar digite 'si' para parar digite 'no'  ")
+
+#     if decisao == "si":
+#         lol()
+
+#     elif decisao == "no":
     
-        print("sessao encerrada")
-        break
+#         print("sessao encerrada")
+#         break
     
-    else:
-         print("Error, comando nao valido")
-         lol()
+#     else:
+#          print("Error, comando nao valido")
+#          lol()
+
+
+
+import pyautogui
+
+position = pyautogui.position()
+print(position)
+

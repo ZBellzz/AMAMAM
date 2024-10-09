@@ -317,9 +317,33 @@
 # print("BOOOOOOOOM")
 
 
+import pyautogui 
+import time 
 
 
+bubu = input("oque quer buscar ")
+time.sleep(4)
+sitt = input("Digite o site q quer buscar ")
 
+pyautogui.press("winleft")
+time.sleep(2)
+pyautogui.write("opera")
+time.sleep(2)
+pyautogui.press("enter")
+time.sleep(2)
+pyautogui.click(x = 380, y = 68 )
+pyautogui.write(sitt)
+pyautogui.press("enter")
+time.sleep(10)
+pyautogui.click(x=883, y=125)
 
+time.sleep(2)
+pyautogui.write(bubu)
+pyautogui.press("enter")
+time.sleep(5)
+pyautogui.click(x=888, y=450)
+time.sleep(4)
+pyautogui.click(x=483, y=652 )
+pyautogui.click(x=483, y=652 )
 
 
