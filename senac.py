@@ -348,22 +348,22 @@
 
 #    n, i, fatorial: inteiro
 # inicio
-#    // Solicita ao usuário um número inteiro positivo
+
 #    escreva("Digite um número inteiro positivo: ")
 #    leia(n)
 
-#    // Verifica se o número é negativo
+
 #    se n < 0 entao
 #       escreva("O fatorial não está definido para números negativos.")
 #    senao
-#       // Inicializa o fatorial como 1
+
 #       fatorial <- 1
 
-#       // Calcula o fatorial
+
 #       para i de 1 ate n faca
 #          fatorial <- fatorial * i
 #       fimpara
 
-#       // Exibe o resultado
+
 #       escreva("O fatorial de ", n, " é ", fatorial)
 #    fimse
