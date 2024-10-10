@@ -317,33 +317,53 @@
 # print("BOOOOOOOOM")
 
 
-import pyautogui 
-import time 
+# import pyautogui 
+# import time 
 
 
-bubu = input("oque quer buscar ")
-time.sleep(4)
-sitt = input("Digite o site q quer buscar ")
+# bubu = input("oque quer buscar ")
+# time.sleep(4)
+# sitt = input("Digite o site q quer buscar ")
 
-pyautogui.press("winleft")
-time.sleep(2)
-pyautogui.write("opera")
-time.sleep(2)
-pyautogui.press("enter")
-time.sleep(2)
-pyautogui.click(x = 380, y = 68 )
-pyautogui.write(sitt)
-pyautogui.press("enter")
-time.sleep(10)
-pyautogui.click(x=883, y=125)
+# pyautogui.press("winleft")
+# time.sleep(2)
+# pyautogui.write("opera")
+# time.sleep(2)
+# pyautogui.press("enter")
+# time.sleep(2)
+# pyautogui.click(x = 380, y = 68 )
+# pyautogui.write(sitt)
+# pyautogui.press("enter")
+# time.sleep(10)
+# pyautogui.click(x=883, y=125)
 
-time.sleep(2)
-pyautogui.write(bubu)
-pyautogui.press("enter")
-time.sleep(5)
-pyautogui.click(x=888, y=450)
-time.sleep(4)
-pyautogui.click(x=483, y=652 )
-pyautogui.click(x=483, y=652 )
+# time.sleep(2)
+# pyautogui.write(bubu)
+# pyautogui.press("enter")
+# time.sleep(5)
+# pyautogui.click(x=888, y=450)
+# time.sleep(4)
+# pyautogui.click(x=483, y=652 )
+# pyautogui.click(x=483, y=652 )
 
+#    n, i, fatorial: inteiro
+# inicio
+#    // Solicita ao usuário um número inteiro positivo
+#    escreva("Digite um número inteiro positivo: ")
+#    leia(n)
 
+#    // Verifica se o número é negativo
+#    se n < 0 entao
+#       escreva("O fatorial não está definido para números negativos.")
+#    senao
+#       // Inicializa o fatorial como 1
+#       fatorial <- 1
+
+#       // Calcula o fatorial
+#       para i de 1 ate n faca
+#          fatorial <- fatorial * i
+#       fimpara
+
+#       // Exibe o resultado
+#       escreva("O fatorial de ", n, " é ", fatorial)
+#    fimse
