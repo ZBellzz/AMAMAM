@@ -1,0 +1,3 @@
+para somar precisa necessariamente definir as variaveis, bunber faz com que a variavel seja tanto int quanto float, para converter especificamente para um tipo precisa antes do valor ser r3ecebido na variavel numberparseint()
+para unicamentee ser valor iunteiro, ou numberparsefloat()
+para converter em string String(n)

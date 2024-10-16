@@ -367,3 +367,63 @@
 
 #       escreva("O fatorial de ", n, " é ", fatorial)
 #    fimse
+
+
+# n = int
+
+# for n in range(1,100 +1):
+#     print(n )
+
+
+# nm = int(input())
+
+# if nm < 1:
+#     print("N permito")
+
+# else:
+#     x = 0 
+#     for r in range(1, nm + 1):
+#         x += r
+
+#     print(x)  
+
+
+# nm = int(input())
+
+# for c in range(1,nm , 2):
+#     print(c)
+# if nm % 2 == 1:
+#         print (nm)
+
+   
+
+
+# nm = int(input())
+
+# for c in range(1,10 + 1):
+#     x = c * nm
+#     print("A multiplicação do numero {}, com o numero {}, resulta em {}".format(nm,c,x))
+
+
+# nm = int(input())
+
+# x = 1
+
+# for c in range(1, nm +1):
+#     x = x * c
+
+# print(x)
+
+
+# n = int(input())
+
+# a = 0
+# b = 1
+
+# for c in range(1,n):
+#     f = a + b
+
+#     a = b
+#     b = f
+
+# print(f)
