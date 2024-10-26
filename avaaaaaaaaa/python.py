@@ -140,5 +140,46 @@
 
 # print(f"O valor de pi com duas casas {pi:.2f}")
 
-numero = 42
-print(f"{numero:.05f}")
+
+# semana = ['segunda','terça','quarta','quinta','sexta']
+
+# dia  = input('informe o dia da semana "segunda","terça","quarta","quinta","sexta" ').lower()
+
+# print(dia)
+
+# if dia in semana:
+#     hora = float(input('Informe a hora '))
+
+#     if hora >= 8 and hora <= 18:
+#         print('Está aberto ')
+
+#     else:
+#         print('Está fechado')
+
+# elif dia == 'domingo' or 'sabado':
+#     print('Está fechado')
+
+# else:
+#     print('O dia n existe')
+
+
+# vetor = []
+
+# for i in range(8):
+#     vetor.append(999)
+
+# print( vetor )
+
+
+
+# for i in range(5,55,5):
+#     vetor.append(i)
+
+# print(vetor)
+
+1
+# for i in range (9,-1,-1):
+#     vetor.append(i)
+
+# print(vetor)
+
