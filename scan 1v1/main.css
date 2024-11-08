@@ -1,0 +1,196 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.menu-principal {
+    width: 100%;
+    background-color: #d10808;
+    height: 60px;
+    padding-left: 0px;
+}
+
+main, .texto{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.meu-perfil ul li {
+    display: inline block;
+    float: left;
+    list-style: none;
+}
+.logo{
+    float: left;
+    width: 70%;
+   
+}
+
+.meu-perfil{
+    width: 30% ;
+    float: left;
+    margin-top: 12px;
+}
+
+.header-2{
+    background-color: #131313;
+    width: 100%;
+    border-bottom: 3px solid #353535;
+
+}
+
+.menu ul li {
+    margin-top: 12px;
+    display: inline-block;
+    list-style: none;
+    font-family: fantasy;
+   color: white;
+    font-size: 21px;
+    }
+    .menu ul li a:hover{
+    color: black;
+    position: relative;
+    text-shadow: 0 0 5px #d10808, 0 0 10px #d10808, 0 0 15px #d10808, 0 0 20px#d10808, 0 0 25px #d10808;
+    -webkit-box-reflect: below -110px linear-gradient(transparent, #0006);
+ 
+    }
+
+
+svg{
+    height: 0;
+    width: 0;
+
+
+}
+
+
+.menu ul li a {
+    color: white;
+    text-shadow: none;
+   text-decoration: none;
+   margin-left: 70px;
+  
+}
+
+.menu{
+    width: 70%;
+    float: left;
+    margin-top: 15px;
+ 
+    
+}
+
+.buscar img {
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+   }
+
+.buscar input {
+    background-image: url(../../imagem/busca.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    width: 120px;
+    height: 26px;
+    padding: 7px;
+    font-family: fantasy;
+    color: #cfcfcf;
+    border-color: red;
+
+   }
+.col-100{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.slider-principal{
+    width: 400px;
+    height: 600px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    overflow: hidden;
+}
+
+.slider-principal img {
+    width: 100%; /* Torna as imagens do carrossel responsivas */
+    height: 100%;
+    object-fit: cover;
+    -webkit-appearance: none; /* Remove a aparência padrão do navegador */
+    appearance: none; /* Remove a aparência padrão do navegador */
+}
+
+.slider-principal a {
+    display: inline-block; /* Manter os links (âncoras) em linha */
+}
+
+.java{
+    width: 400px;
+    height: 600px;
+    position: center;
+}
+
+/*pra cima n pecisar mais ,mecher*/
+.content-texto-destaque h1 {
+    margin-top: 12px; /* Adiciona espaçamento entre o carrossel e o texto */
+    padding: 15px; /* Adiciona espaçamento interno ao texto */
+    color: white;
+    width: calc(100% - 30px); /* Ajusta a largura para considerar o padding */
+    float: left;
+    text-align: left;
+    font-family: 'Sedan SC', serif;
+}
+
+
+.content-texto-destaque p{
+    color: white;
+    padding: 12px;
+    width: calc(100% - 30px);
+    float: left;
+    text-align: left;
+
+}
+
+/*textos ja ajustados*/
+
+.obras-1-fileira img{
+    width: 140px;
+    height: 200px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-inline: 7px;
+    margin-left: 6px ;
+    padding: 12px 0 0 0;
+}
+
+.obras-1-fileira a{ 
+    color: white;
+    text-decoration: none;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.texto{
+    margin-left: 120px;
+    margin-top: 500px;
+    margin-inline: 7px;
+    
+}
+
+
+
+
