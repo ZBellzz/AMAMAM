@@ -140,49 +140,55 @@
 
 # print(f"O valor de pi com duas casas {pi:.2f}")
 
+# def dia():
+#     semana = ['segunda','terça','quarta','quinta','sexta']
 
-semana = ['segunda','terça','quarta','quinta','sexta']
+#     dia  = input('informe o dia da semana "segunda","terça","quarta","quinta","sexta" ').lower()
 
-dia  = input('informe o dia da semana "segunda","terça","quarta","quinta","sexta" ').lower()
+#     print(dia)
 
-print(dia)
+#     if dia in semana:
+#         hora = float(input('Informe a hora '))
 
-if dia in semana:
-    hora = float(input('Informe a hora '))
+#         if hora >= 8 and hora <= 18:
+#             print('Está aberto ')
 
-    if hora >= 8 and hora <= 18:
-        print('Está aberto ')
+#         else:
+#             print('Está fechado')
 
-    else:
-        print('Está fechado')
+#     elif dia == 'domingo' or 'sabado':
+#         print('Está fechado')
 
-elif dia == 'domingo' or 'sabado':
-    print('Está fechado')
-
-else:
-    print('O dia n existe')
-
-
-# vetor = []
-
-# for i in range(8):
-#     vetor.append(999)
-
-# print( vetor )
+#     else:
+#         print('O dia n existe')
 
 
+#     vetor = []
 
-# for i in range(5,55,5):
-#     vetor.append(i)
+#     for i in range(8):
+#         vetor.append(999)
 
-# print(vetor)
-
-# 1
-# for i in range (9,-1,-1):
-#     vetor.append(i)
-
-# print(vetor)
+#     print( vetor )
 
 
 
+#     for i in range(5,55,5):
+#         vetor.append(i)
 
+#     print(vetor)
+
+#     1
+#     for i in range (9,-1,-1):
+#         vetor.append(i)
+
+#     print(vetor)
+def ex():
+    a = 5
+    b = 5
+    # alt = int(input("aaaa"))
+    # lag = int(input("bbbbb"))
+
+    area = a * b
+    return area
+    
+ex()
