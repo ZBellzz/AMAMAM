@@ -182,13 +182,21 @@
 #         vetor.append(i)
 
 #     print(vetor)
-def ex():
-    a = 5
-    b = 5
-    # alt = int(input("aaaa"))
-    # lag = int(input("bbbbb"))
 
-    area = a * b
-    return area
-    
-ex()
+
+
+import tkinter as tk
+
+# Criando a janela principal
+janela = tk.Tk()
+janela.title("Centralizando com pack")
+janela.geometry("400x300")  # Define o tamanho da janela
+
+# Criando um rótulo
+rotulo = tk.Label(janela, text="Centralizado com pack!", font=("Arial", 14))
+
+# Centralizando com pack
+rotulo.pack()
+
+janela.mainloop()
+
