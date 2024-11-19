@@ -1,6 +1,8 @@
 from tkinter import *
 from tkinter import messagebox
 from func import *
+from func import confirmar_login
+from func import abrir_tela_cadastro
 
 
 
